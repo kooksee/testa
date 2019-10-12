@@ -1,0 +1,16 @@
+[app]
+web_port=8080
+http_port=8081
+resp_port=8082
+rpc_port=8082
+name="db2rest"
+debug=true
+env="dev"
+db_path=""
+
+[redis]
+Host = "127.0.0.1:6379"
+Password =""
+MaxIdle = 30
+MaxActive = 30
+IdleTimeout = 200
